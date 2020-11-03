@@ -3,8 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: 1fr 1000px 1fr;
-	justify-items: center;
+    justify-items: center;
     
 }
 
