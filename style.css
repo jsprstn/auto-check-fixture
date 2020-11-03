@@ -3,9 +3,8 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-	
-    
+    grid-template-columns: 40px 1fr;
+	   
 }
 
 body{
