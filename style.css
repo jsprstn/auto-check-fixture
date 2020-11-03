@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: auto 780px;
+    grid-template-columns: auto 780px auto;
     
 }
 
