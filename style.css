@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 100px auto 100px;
 	
     
 }
