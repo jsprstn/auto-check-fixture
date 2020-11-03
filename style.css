@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(300px auto);
+    grid-template-columns: 300px auto;
 }
 
 body{
@@ -103,12 +103,20 @@ a{
     }
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 
