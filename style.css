@@ -87,7 +87,7 @@ a{
 
 .google-pdf {
         position: relative;
-        padding-bottom: 77%; // This is the aspect ratio
+        padding-bottom: 69%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
     }
