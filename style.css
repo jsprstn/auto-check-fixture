@@ -85,6 +85,19 @@ a{
     width: 100px;
 }
 
+.google-pdf {
+        position: relative;
+        padding-bottom: 77%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-pdf iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 
 
