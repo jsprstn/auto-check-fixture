@@ -91,7 +91,7 @@ a{
         height: 0;
         overflow: hidden;
     }
-    .google-pdf iframe {
+.google-pdf iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -99,7 +99,11 @@ a{
         height: 100%;
     }
 
-
+.myClass img{ 
+    float:left; 
+    width: 30%; 
+    margin:0 1%;
+}
 
 
 /* animations / utilities */
